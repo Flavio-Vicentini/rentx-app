@@ -24,6 +24,7 @@
         "prettier/prettier": "error",
         "camelcase": "off",
         "import/no-unresolved": "error",
+        //Define que toda interface tem que comecar com I
         "@typescript-eslint/naming-convention": [
         "error",
         {
