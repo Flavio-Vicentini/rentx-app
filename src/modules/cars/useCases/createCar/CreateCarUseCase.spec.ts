@@ -11,15 +11,15 @@ describe("Create car", () => {
     carsRepositoryInMemory = new CarsRepositoryInMemory();
     createCarUseCase = new CreateCarUseCase(carsRepositoryInMemory);
   });
-  it("should be able to create a new car", () => {
-    const car = createCarUseCase.execute({
+  it("should be able to create a new car", async () => {
+    const car = await createCarUseCase.execute({
       name: "Car name",
       description: "Description name",
       brand: "Car brand",
       category_id: "category",
       daily_rate: 100,
       fine_amount: 500,
-      license_plate: "1234-ABC",
+      license_plate: "AFC-2513",
     });
     expect(car).toHaveProperty("id");
   });
