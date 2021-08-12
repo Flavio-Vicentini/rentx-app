@@ -48,11 +48,11 @@ class Car {
 
   @ManyToMany(() => Specification)
   @JoinTable({
-    name: "specification_cars",
+    name: "specifications_cars",
     joinColumns: [{ name: "car_id" }],
     inverseJoinColumns: [{ name: "specification_id" }],
   })
-  specification: Specification[];
+  specifications: Specification[];
 
   @CreateDateColumn()
   created_at: Date;
