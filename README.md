@@ -53,3 +53,4 @@ Deve ser possível cadastrar um aluguel de carro
 O aluguel deve ter duração mínima de 24 horas.
 Não deve ser possível cadastrar um novo aluguel caso ja exista um aberto para o mesmo usuário.
 Não deve ser possível cadastrar um novo aluguel caso ja exista um aberto para o mesmo carro.
+ O usrário deve estar logado.
