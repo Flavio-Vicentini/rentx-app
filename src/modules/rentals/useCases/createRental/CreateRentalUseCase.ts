@@ -42,7 +42,6 @@ class CreateRentalUseCase {
       dateNow,
       expected_return_date
     );
-    console.log(compare);
     if (compare < minHoursToRent) {
       throw new AppError("Invalid expect date return");
     }
