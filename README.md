@@ -76,3 +76,14 @@ Deve ser possível listar os aluguéis de um usuário.
 
 **RN**
 O usuário deve estar logado na aplicação.
+
+# Recuperação de senha
+
+**RF**
+Deve ser possível recuperar senha informando o email.
+O usuário deve receber um email com o passo a passo para recuperar a senha.
+O usuário deve conseguir inserir uma nova senha.
+
+**RN**
+O usuário precisa informar uma nova senha
+O link para recuperação de senha expira em 3 horas.

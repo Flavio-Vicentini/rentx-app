@@ -1,6 +1,6 @@
 import { inject, injectable } from "tsyringe";
 
-import { IUsersRepository } from "@modules/accounts/repositories/IUserRepository";
+import { IUsersRepository } from "@modules/accounts/repositories/IUsersRepository";
 import { deleteFile } from "@utils/file";
 
 interface IAvatarData {
